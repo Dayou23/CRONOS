@@ -52,10 +52,10 @@ const AbutUs = () => {
   useEffect(() => {
     const getAboutAu = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/aboutUs");
-        // const res = await axios.get(
-        //   `https://nice-plum-swallow-fez.cyclic.app/api/aboutUs`
-        // );
+        // const res = await axios.get("http://localhost:5000/api/aboutUs");
+        const res = await axios.get(
+          `https://dark-red-coral-wrap.cyclic.cloud/api/aboutUs`
+        );
         setLoading(false);
         setAboutUs(res.data);
       } catch (err) {}

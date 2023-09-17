@@ -16,7 +16,7 @@ const Home = () => {
         <title>Taacland</title>
         <meta
           name="description"
-          content="Taacland A store of the finest headbands for adults, teenagers, and young children"
+          content="CRONOS Shop Online is a popular e-commerce platform known for its diverse range of products. From fashion, it offers a wide selection to cater to various consumer needs. With user-friendly navigation and secure payment options, it provides a convenient shopping experience. CRONOS Shop Online's commitment to quality and customer satisfaction makes it a trusted choice for online shoppers."
         />
       </Helmet>
 

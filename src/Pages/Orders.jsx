@@ -110,7 +110,7 @@ const Orders = () => {
       setLoading(true);
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/orders/find/${user._id}`
+          `https://dark-red-coral-wrap.cyclic.cloud/api/orders/find/${user._id}`
         );
         // const res = await userRequest.get(
         //   `https://nice-plum-swallow-fez.cyclic.app/api/orders/find/${user._id}`
@@ -125,7 +125,7 @@ const Orders = () => {
       setLoading(true);
       try {
         const res = await axios.get(
-          "https://nice-plum-swallow-fez.cyclic.app/api/products"
+          "https://dark-red-coral-wrap.cyclic.cloud/api/products"
           //   ?  `http://localhost:5000/api/products/?category=${cat}`
           // : `http://localhost:5000/api/products?new=true`
         );

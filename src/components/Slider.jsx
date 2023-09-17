@@ -153,10 +153,10 @@ const Slider = () => {
   useEffect(() => {
     const getSlider = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/sliders`);
-        // const res = await axios.get(
-        //   `https://nice-plum-swallow-fez.cyclic.app/api/sliders`
-        // );
+        const res = await axios.get(
+          `https://dark-red-coral-wrap.cyclic.cloud/api/sliders`
+        );
+
         setLoading(false);
         setSliders(res.data);
       } catch (err) {

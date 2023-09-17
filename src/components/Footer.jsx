@@ -116,11 +116,9 @@ const Footer = () => {
     const getCategory = async () => {
       try {
         const res = await axios.get(
-          `https://nice-plum-swallow-fez.cyclic.app/api/categories`
+          `https://dark-red-coral-wrap.cyclic.cloud/api/categories`
         );
-        // const res = await axios.get(
-        //   `https://taaclandapi.onrender.com/api/categories`
-        // );
+
         setLoading(false);
         setCategories(res.data);
       } catch (err) {}
@@ -131,7 +129,6 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        {/* <Logo>TAACLAND.</Logo> */}
         <Link
           to="/home"
           // className="navbar-logo"

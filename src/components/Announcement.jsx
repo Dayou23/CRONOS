@@ -35,7 +35,7 @@ const Announcement = () => {
     setLoading(true);
     try {
       await axios.post(
-        `http://localhost:5000/api/auth/resendverifyemail/${user._id}`
+        `https://dark-red-coral-wrap.cyclic.cloud/api/auth/resendverifyemail/${user._id}`
       );
       setLoading(false);
       Swal.fire({

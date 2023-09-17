@@ -48,7 +48,6 @@ const Paragraph = styled.h1`
 const PageNotFound = () => {
   return (
     <Container>
-      <Announcement />
       <Navbar />
       <ComponentDiv>
         <Wrapper>

@@ -65,7 +65,7 @@ const ProductList = () => {
       <Helmet>
         <meta
           name="description"
-          content="The finest types of headbands of all sizes and different colors at great prices"
+          content="CRONOS Shop Online is a popular e-commerce platform known for its diverse range of products. From fashion, it offers a wide selection to cater to various consumer needs. With user-friendly navigation and secure payment options, it provides a convenient shopping experience. CRONOS Shop Online's commitment to quality and customer satisfaction makes it a trusted choice for online shoppers."
         />
       </Helmet>
 

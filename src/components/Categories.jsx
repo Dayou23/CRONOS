@@ -29,7 +29,9 @@ const Categories = () => {
         // const res = await axios.get(
         //   `https://taaclandapi.onrender.com/api/categories`
         // );
-        const res = await axios.get(`http://localhost:5000/api/categories`);
+        const res = await axios.get(
+          `https://dark-red-coral-wrap.cyclic.cloud/api/categories`
+        );
         setLoading(false);
         setCategories(res.data);
       } catch (err) {
