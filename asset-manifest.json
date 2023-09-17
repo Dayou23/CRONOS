@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CRONOS/static/css/main.23ef4691.css",
+    "main.js": "/CRONOS/static/js/main.7fe9739a.js",
+    "static/media/logoTaac.PNG": "/CRONOS/static/media/logoTaac.18d730f236787460ba10.PNG",
+    "static/media/Capture33.png": "/CRONOS/static/media/Capture33.6a96070fa80fac3e64ed.png",
+    "static/media/Capture33Looka.PNG": "/CRONOS/static/media/Capture33Looka.1d29d71b7481bc507eea.PNG",
+    "index.html": "/CRONOS/index.html",
+    "main.23ef4691.css.map": "/CRONOS/static/css/main.23ef4691.css.map",
+    "main.7fe9739a.js.map": "/CRONOS/static/js/main.7fe9739a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ef4691.css",
+    "static/js/main.7fe9739a.js"
+  ]
+}
