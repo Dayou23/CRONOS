@@ -115,8 +115,11 @@ const Footer = () => {
   useEffect(() => {
     const getCategory = async () => {
       try {
+        // const res = await axios.get(
+        //   `https://dark-red-coral-wrap.cyclic.cloud/api/categories`
+        // );
         const res = await axios.get(
-          `https://dark-red-coral-wrap.cyclic.cloud/api/categories`
+          `https://cronos-api-99mk.onrender.com/api/categories`
         );
 
         setLoading(false);

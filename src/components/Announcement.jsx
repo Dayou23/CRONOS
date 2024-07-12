@@ -34,8 +34,11 @@ const Announcement = () => {
   const handleClick = async () => {
     setLoading(true);
     try {
+      // await axios.post(
+      //   `https://dark-red-coral-wrap.cyclic.cloud/api/auth/resendverifyemail/${user._id}`
+      // );
       await axios.post(
-        `https://dark-red-coral-wrap.cyclic.cloud/api/auth/resendverifyemail/${user._id}`
+        `https://cronos-api-99mk.onrender.com/api/auth/resendverifyemail/${user._id}`
       );
       setLoading(false);
       Swal.fire({

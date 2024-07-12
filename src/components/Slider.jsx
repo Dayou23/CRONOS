@@ -153,8 +153,11 @@ const Slider = () => {
   useEffect(() => {
     const getSlider = async () => {
       try {
+        // const res = await axios.get(
+        //   `https://dark-red-coral-wrap.cyclic.cloud/api/sliders`
+        // );
         const res = await axios.get(
-          `https://dark-red-coral-wrap.cyclic.cloud/api/sliders`
+          `https://cronos-api-99mk.onrender.com/api/sliders`
         );
 
         setLoading(false);

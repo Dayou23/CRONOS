@@ -25,8 +25,10 @@ const Products = ({ cat, filters, sort }) => {
       try {
         const res = await axios.get(
           cat
-            ? `https://dark-red-coral-wrap.cyclic.cloud/api/products?category=${cat}`
-            : "https://dark-red-coral-wrap.cyclic.cloud/api/products?new=true"
+            ? // ? `https://dark-red-coral-wrap.cyclic.cloud/api/products?category=${cat}`
+              // : "https://dark-red-coral-wrap.cyclic.cloud/api/products?new=true"
+              `https://cronos-api-99mk.onrender.com/api/products?category=${cat}`
+            : "https://cronos-api-99mk.onrender.com/api/products?new=true"
           //   `http://localhost:5000/api/products/?category=${cat}`
           // : `http://localhost:5000/api/products?new=true`
         );

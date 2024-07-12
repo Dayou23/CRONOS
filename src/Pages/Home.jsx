@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Taacland</title>
+        <title>CRONOS</title>
         <meta
           name="description"
           content="CRONOS Shop Online is a popular e-commerce platform known for its diverse range of products. From fashion, it offers a wide selection to cater to various consumer needs. With user-friendly navigation and secure payment options, it provides a convenient shopping experience. CRONOS Shop Online's commitment to quality and customer satisfaction makes it a trusted choice for online shoppers."

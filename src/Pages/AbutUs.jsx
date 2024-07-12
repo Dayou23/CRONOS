@@ -53,8 +53,11 @@ const AbutUs = () => {
     const getAboutAu = async () => {
       try {
         // const res = await axios.get("http://localhost:5000/api/aboutUs");
+        // const res = await axios.get(
+        //   `https://dark-red-coral-wrap.cyclic.cloud/api/aboutUs`
+        // );
         const res = await axios.get(
-          `https://dark-red-coral-wrap.cyclic.cloud/api/aboutUs`
+          `https://cronos-api-99mk.onrender.com/api/aboutUs`
         );
         setLoading(false);
         setAboutUs(res.data);
